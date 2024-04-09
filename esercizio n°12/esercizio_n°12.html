@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quostionario di raccolta dati</title>
+    <link rel="stylesheet" href="esercizio_n°12.css">
+</head>
+<body>
+    <div id="contenitore_padre">
+        <h1>Questionario di raccolta dati per creare una rete</h1>
+
+        <p id="paragrafo">
+            I dati indicati di seguito sono alcunidi quelli necessari da raccogliere prima di mettersi alle prese
+            con la realizzazione della rete. E' il primo luogo necessario capire le funzioni della rete, a cosa è
+            dedicata? Quanto deve essere grande? Sappiamo già che ci sarà un solo modem/router? Oppure serve qualcosa
+            di più complesso? Quindi è necessario capire quanti e quali sono i device che apparterranno alla rete? Quali 
+            sono le caratteristiche di questi device? Infine una volta raccolti tutti i dati si può finalmente partire con 
+            la progettazione della rete.
+        </p>
+
+        <br>
+
+        <div id="contenitore_figlio">
+            <h2>Step 1: Dati della rete</h2>
+            <div id="contenitore_dati1">
+                <p id="frase1">Nome e Cognome del responsabile</p>
+                <input type="text" placeholder="Nome e Cognome">   
+            </div>
+
+            <div id="contenitore_dati2">
+                <p id="frase2">Indirizzo</p>
+                <input type="text" placeholder="indirizzo">
+            </div>
+
+            <div id="contenitore_dati3">
+                <p id="frase3">Numero delle sedi dell'azienda</p>
+                <input type="text" placeholder="sedi">
+            </div>
+
+            <div id="contenitore_dati4">
+                <p id="frase4">Data di Compilazioine</p>
+                <input type="text" placeholder="gg/mm/aaaa">
+            </div>
+
+
+            <h2>Step 2: Dimensioni della rete in base alla tipologia</h2>
+            <div id="contenitore_dati5">
+                <p id="frase5">LAN</p>
+                <input type="checkbox">   
+            </div>
+
+            <div id="contenitore_dati6">
+                <p id="frase6">MAN</p>
+                <input type="checkbox">   
+            </div>
+
+            <div id="contenitore_dati7">
+                <p id="frase7">WAN</p>
+                <input type="checkbox">
+            </div>
+
+            <div id="contenitore_dati8">
+                <p id="frase8">Altro</p>
+                <input type="text" placeholder="Specificare">
+            </div>
+
+
+            <h2>Step 3: E' già nota la forma della rete (topologia)</h2>
+            <div id="step3">
+                <p>A stella</p>
+                <p>A bus</p>
+                <p>Ad albero</p>
+                <p>Altro</p>
+                <input id="input1" type="radio">
+                <input id="input2" type="radio">
+                <input id="input3" type="radio">
+                <input type="text" placeholder="Specificare">
+            </div>
+
+
+            <h2>Step 4: Caratteristiche del PC</h2>
+            <div id="contenitore_dati9">
+                <p id="frase9">Recupera tutti i dati del PC</p>
+            </div>
+
+            <div id="contenitore_dati10">
+                <p id="frase10">Processore</p>
+                <input type="text" placeholder="Processore">
+            </div>
+
+            <div id="contenitore_dati11">
+                <p id="frase11">Ram</p>
+                <input type="text" placeholder="Ram">
+            </div>
+
+            <div id="contenitore_dati12">
+                <p id="frase12">C</p>
+                <input type="text" placeholder="C">
+            </div>
+
+            <div id="contenitore_dati13">
+                <p id="frase13">D</p>
+                <input type="text" placeholder="D">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
